@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* universal reset */
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global styles */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav {
+    background-color: rgb(88, 88, 186);
+    padding:1rem ;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: flex-end; 
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+main{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(88, 88, 186);
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* home page styles */
+
+#Home article{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    gap:20px;
+}
+
+#homePhoto{
+    display: flex;
+    align-items: center;
+}
+
+/* end home page styles  */
+
+
+
+
+
+/* about page styles */
+
+#About article{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* end about page styles */
